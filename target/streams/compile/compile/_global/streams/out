@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\dubey\OneDrive\Desktop\bosch1\src\main\scala\HelloApp.scala:42:12: overloaded method value foreach with alternatives:[0m[0J
+[0m[[0m[31merror[0m] [0m[0m  (func: org.apache.spark.api.java.function.ForeachFunction[org.apache.spark.sql.Row])Unit <and>[0m[0J
+[0m[[0m[31merror[0m] [0m[0m  (f: org.apache.spark.sql.Row => Unit)Unit[0m[0J
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Unit)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m        df.foreach(println())[0m[0J
+[0m[[0m[31merror[0m] [0m[0m           ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mone error found[0m[0J
